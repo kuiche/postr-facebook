@@ -1,6 +1,6 @@
 {
   "name": "postr-facebook",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "main": "lib/postr-facebook.js",
   "description": "A facebook schema for postr",
   "homepage": "extrovert.io",
