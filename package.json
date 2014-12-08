@@ -1,0 +1,43 @@
+{
+  "name": "postr-facebook",
+  "version": "0.0.0",
+  "main": "lib/postr-facebook.js",
+  "description": "A facebook schema for postr",
+  "homepage": "extrovert.io",
+  "bugs": "https://github.com/Kuiche/postr-facebook/issues",
+  "author": {
+    "name": "Samuel Trangmar-Keates",
+    "email": "sam@message.co.uk",
+    "url": "extrovert.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kuiche/postr-facebook"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "postr-facebook",
+    "facebook",
+    " postr",
+    " social media"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "fb": "^0.7.0"
+  }
+}
